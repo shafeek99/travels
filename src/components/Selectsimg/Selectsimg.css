@@ -1,0 +1,31 @@
+.selects img {
+    height: 100%;
+    width: 100%;
+ 
+    
+}
+
+
+.selects-location {
+    position: relative;
+    transition: 0.3s all ease-in-out;
+}
+
+
+.selects-location .overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.selects-location p {
+    position: absolute;
+    bottom: .3rem;
+    left: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
